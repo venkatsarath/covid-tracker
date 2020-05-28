@@ -1,2 +1,2 @@
 # covid-tracker
-Dashboard for Covid19
+Dashboard for covid19
