@@ -10,7 +10,7 @@ Treat the data included here as a sample data, which might be (and probably is) 
 Please note that statistics collection, especially in early days of pandemic was erratic, patchy, and not systemized.
 
 ## Dashboard
-[Click Here](https://github.com/venkatsarath/covid-tracker/tree/master/dashboard)
+[Click Here](https://venkatsarath.github.io/covid-tracker/dashboard)
 
 Data
 Source
