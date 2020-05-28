@@ -10,6 +10,7 @@ getCountries();
  function getCountries(){
       $.getJSON( "https://api.covid19api.com/summary", function( data ) {
         summaryData = data;
+         $("#Date").html(data.Countries[0].Date);
         populateSummary(data.Global);
         populateCountries(data.Countries);
       }).fail(function(jqXHR, textStatus, errorThrown){

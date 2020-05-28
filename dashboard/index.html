@@ -5,11 +5,11 @@
     <title>COVID-19 Dashboard</title>
 
     <!-- DataTables includes -->
-    <script src="../../deps/jquery/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" media="all" href="../../deps/datatables/css/jquery.dataTables.min.css" />
-    <link rel="stylesheet" media="all" href="../../deps/datatables/css/select.dataTables.min.css" />
-    <script src="../../deps/datatables/js/jquery.dataTables.min.js"></script>
-    <script src="../../deps/datatables/js/dataTables.select.min.js"></script>
+    <script src="../jquery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" media="all" href="../datatables/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" media="all" href="../datatables/css/select.dataTables.min.css" />
+    <script src="../datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../datatables/js/dataTables.select.min.js"></script>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" media="all" href="dark.css" />
@@ -22,6 +22,7 @@
     <table id="summary" class="compact hover order-column row-border" style="flex:0 0 80%">
       <thead>
       <tr>
+        <th>Date</th>
         <th>NewConfirmed</th>
         <th>TotalConfirmed</th>
         <th>NewDeaths</th>
@@ -31,6 +32,7 @@
       </tr>
       </thead>
       <tbody>
+      <td style="text-align:center;" id="Date"></td>
       <td style="text-align:center;color:#ff8726" id="NewConfirmed"></td>
       <td style="text-align:center;font-weight:bold" id="TotalConfirmed"></td>
       <td style="text-align:center;color:#1c5fe5" id="NewDeaths"></td>
@@ -42,7 +44,7 @@
   </div>
     <div class="flexbox">
 
-      <div id="list" style="flex:0 0 100%;height:60vh">
+      <div id="list" style="flex:0 0 100%;height:100vh">
         <table id="areas" class="compact hover order-column row-border">
           <thead>
             <tr>
